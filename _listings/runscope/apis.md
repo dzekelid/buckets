@@ -30,7 +30,7 @@ apis:
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-environmentid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-metrics-get.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
