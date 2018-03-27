@@ -30,7 +30,7 @@ apis:
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-environments-get.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
