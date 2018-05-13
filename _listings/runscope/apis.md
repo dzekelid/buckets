@@ -31,19 +31,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-steps-stepid-put.md
-- name: Runscope Put Buckets Tests
-  description: Modify a test's name, description, default environment and its steps.
-    To modify other individual properties of a test, make requests to the steps, environments,
-    and schedules subresources of the test.
+- name: Runscope Get Buckets Tests Environments
+  description: Return details of the test's environments (only those that belong to
+    the specified test)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-environments-get-postman.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
