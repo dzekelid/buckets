@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Put Buckets Tests
+  description: Modify a test's name, description, default environment and its steps.
+    To modify other individual properties of a test, make requests to the steps, environments,
+    and schedules subresources of the test.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
