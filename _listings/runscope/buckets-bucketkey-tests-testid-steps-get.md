@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Get Buckets Tests Steps
+  description: List test steps for a test.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
