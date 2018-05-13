@@ -31,15 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-steps-stepid-put.md
-- name: Runscope Add Buckets
-  description: Create a new bucket
+- name: Runscope Delete Buckets Bucketkey
+  description: Delete a single bucket resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-delete-postman.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
