@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Delete Buckets Tests
+  description: Delete a test, including all steps, schedules, test-specific environments
+    and results.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
