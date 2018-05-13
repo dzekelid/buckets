@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Put Buckets Tests Steps
+  description: Update the details of a single test step.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
