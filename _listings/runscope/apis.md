@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-steps-stepid-put.md
-- name: Runscope Get Buckets
-  description: Returns a list of buckets.
+- name: Runscope Add Buckets
+  description: Create a new bucket
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-post.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
