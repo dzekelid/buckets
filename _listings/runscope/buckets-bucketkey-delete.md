@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Delete Buckets Bucketkey
+  description: Delete a single bucket resource.
   version: 1.0.0
 host: api.runscope.com
 basePath: /
