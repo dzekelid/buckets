@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-tests-testid-steps-stepid-put.md
-- name: Runscope Get Buckets Errors
-  description: Retrieve a list of error messages in a bucket
+- name: Runscope Delete Buckets Messages
+  description: Clear a bucket (remove all messages).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Buckets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-errors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-messages-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-errors-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-bucketkey-messages-delete-postman.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
