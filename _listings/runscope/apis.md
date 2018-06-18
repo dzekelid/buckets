@@ -1,24 +1,21 @@
 ---
 name: Runscope
 x-slug: runscope
-description: Runscope was started with the idea that depending on a web service API
-  in a mobile or web application should be as easy as depending on code running locally.
-  We&rsquo;ve assembled a team of API, infrastructure and developer experience experts
-  to build tools to support the modern application development lifecycle.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
+description: API performance monitoring. Everything is going to be 200 OK
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "125183"
 tags: Buckets
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Runscope Get Buckets
   x-api-slug: runscope
   description: Returns a list of buckets.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets
   tags: Buckets
   properties:
@@ -29,8 +26,8 @@ apis:
 - name: Runscope Add Buckets
   x-api-slug: runscope
   description: Create a new bucket
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets
   tags: Buckets
   properties:
@@ -39,8 +36,8 @@ apis:
 - name: Runscope Delete Buckets Bucketkey
   x-api-slug: runscope
   description: Delete a single bucket resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}
   tags: Buckets, Bucketkey
   properties:
@@ -51,8 +48,8 @@ apis:
 - name: Runscope Get Buckets Bucketkey
   x-api-slug: runscope
   description: Returns a single bucket resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}
   tags: Buckets, Bucketkey
   properties:
@@ -63,8 +60,8 @@ apis:
 - name: Runscope Get Buckets Environments
   x-api-slug: runscope
   description: Returns list of shared environments for a specified bucket.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments
   tags: Buckets, Environments
   properties:
@@ -75,8 +72,8 @@ apis:
 - name: Runscope Add Buckets Environments
   x-api-slug: runscope
   description: Create new shared environment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments
   tags: Buckets, Environments
   properties:
@@ -85,8 +82,8 @@ apis:
 - name: Runscope Put Buckets Environments
   x-api-slug: runscope
   description: Update the details of a shared environment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments/{environmentId}
   tags: Buckets, Environments
   properties:
@@ -95,8 +92,8 @@ apis:
 - name: Runscope Get Buckets Errors
   x-api-slug: runscope
   description: Retrieve a list of error messages in a bucket
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/errors
   tags: Buckets, Errors
   properties:
@@ -107,8 +104,8 @@ apis:
 - name: Runscope Delete Buckets Messages
   x-api-slug: runscope
   description: Clear a bucket (remove all messages).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -119,8 +116,8 @@ apis:
 - name: Runscope Get Buckets Messages
   x-api-slug: runscope
   description: Retrieve a list of messages in a bucket
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -131,8 +128,8 @@ apis:
 - name: Runscope Add Buckets Messages
   x-api-slug: runscope
   description: Create a message
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -141,8 +138,8 @@ apis:
 - name: Runscope Get Buckets Messages Message
   x-api-slug: runscope
   description: Retrieve the details for a single message.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages/{messageId}
   tags: Buckets, Messages, Message
   properties:
@@ -153,8 +150,8 @@ apis:
 - name: Runscope Get Buckets Tests
   x-api-slug: runscope
   description: Returns a list of tests.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests
   tags: Buckets, Tests
   properties:
@@ -165,8 +162,8 @@ apis:
 - name: Runscope Add Buckets Tests
   x-api-slug: runscope
   description: Create a test.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests
   tags: Buckets, Tests
   properties:
@@ -176,8 +173,8 @@ apis:
   x-api-slug: runscope
   description: Delete a test, including all steps, schedules, test-specific environments
     and results.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -188,8 +185,8 @@ apis:
 - name: Runscope Get Buckets Tests
   x-api-slug: runscope
   description: Retrieve the details of a given test by ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -202,8 +199,8 @@ apis:
   description: Modify a test's name, description, default environment and its steps.
     To modify other individual properties of a test, make requests to the steps, environments,
     and schedules subresources of the test.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -215,8 +212,8 @@ apis:
   x-api-slug: runscope
   description: Return details of the test's environments (only those that belong to
     the specified test)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments
   tags: Buckets, Tests, Environments
   properties:
@@ -227,8 +224,8 @@ apis:
 - name: Runscope Add Buckets Tests Environments
   x-api-slug: runscope
   description: Create new test environment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments
   tags: Buckets, Tests, Environments
   properties:
@@ -237,8 +234,8 @@ apis:
 - name: Runscope Put Buckets Tests Environments
   x-api-slug: runscope
   description: Update the details of a test environment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments/{environmentId}
   tags: Buckets, Tests, Environments
   properties:
@@ -247,8 +244,8 @@ apis:
 - name: Runscope Get Buckets Tests Metrics
   x-api-slug: runscope
   description: Return details of the test metrics for the specified timeframe.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/metrics
   tags: Buckets, Tests, Metrics
   properties:
@@ -259,8 +256,8 @@ apis:
 - name: Runscope Get Buckets Tests Steps
   x-api-slug: runscope
   description: List test steps for a test.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps
   tags: Buckets, Tests, Steps
   properties:
@@ -271,8 +268,8 @@ apis:
 - name: Runscope Add Buckets Tests Steps
   x-api-slug: runscope
   description: Add new test step.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps
   tags: Buckets, Tests, Steps
   properties:
@@ -281,8 +278,8 @@ apis:
 - name: Runscope Delete Buckets Tests Steps
   x-api-slug: runscope
   description: Delete a step from a test.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps/{stepId}
   tags: Buckets, Tests, Steps
   properties:
@@ -293,8 +290,8 @@ apis:
 - name: Runscope Put Buckets Tests Steps
   x-api-slug: runscope
   description: Update the details of a single test step.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps/{stepId}
   tags: Buckets, Tests, Steps
   properties:
@@ -302,12 +299,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidstepsstepid-put-openapi.md
 - name: Runscope
   x-api-slug: runscope
-  description: Runscope was started with the idea that depending on a web service
-    API in a mobile or web application should be as easy as depending on code running
-    locally. We&rsquo;ve assembled a team of API, infrastructure and developer experience
-    experts to build tools to support the modern application development lifecycle.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
-  humanURL: https://www.runscope.com/
+  description: API performance monitoring. Everything is going to be 200 OK
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
   tags: Buckets
   properties:
@@ -321,9 +315,19 @@ x-common:
 - type: x-blog-rss
   url: http://blog.runscope.com/posts?format=rss
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/runscope
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/runscope
 - type: x-developer
   url: https://www.runscope.com/docs/api
+- type: x-email
+  url: sales@runscope.com
+- type: x-email
+  url: press@runscope.com
+- type: x-email
+  url: help@runscope.com
+- type: x-email
+  url: dmca@runscope.com
 - type: x-github
   url: https://github.com/Runscope
 - type: x-openapi-spec--authoritative
@@ -340,6 +344,8 @@ x-common:
   url: https://www.runscope.com/terms
 - type: x-twitter
   url: https://twitter.com/Runscope
+- type: x-website
+  url: http://runscope.com
 - type: x-website
   url: https://www.runscope.com/
 include: []
