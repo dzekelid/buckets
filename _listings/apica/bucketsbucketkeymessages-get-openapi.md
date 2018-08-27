@@ -6,12 +6,14 @@ info:
   title: Messages API Get Buckets Messages
   version: 1.0.0
   description: Retrieve a list of messages in a bucket.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   /buckets/{bucketKey}/messages:
     delete:

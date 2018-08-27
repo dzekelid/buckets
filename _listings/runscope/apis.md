@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runsc
 x-kinRank: "9"
 x-alexaRank: "125183"
 tags: Buckets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,6 +24,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-get-openapi.md
+- name: Runscope - Add Buckets
+  x-api-slug: buckets-post
+  description: Create a new bucket
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/buckets-post-openapi.md
 - name: Runscope - Delete Buckets Bucketkey
   x-api-slug: bucketsbucketkey-delete
   description: Delete a single bucket resource.
@@ -63,6 +74,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyenvironments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyenvironments-get-openapi.md
+- name: Runscope - Add Buckets Environments
+  x-api-slug: bucketsbucketkeyenvironments-post
+  description: Create new shared environment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyenvironments-post-openapi.md
+- name: Runscope - Put Buckets Environments
+  x-api-slug: bucketsbucketkeyenvironmentsenvironmentid-put
+  description: Update the details of a shared environment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyenvironmentsenvironmentid-put-openapi.md
 - name: Runscope - Get Buckets Errors
   x-api-slug: bucketsbucketkeyerrors-get
   description: Retrieve a list of error messages in a bucket
@@ -102,6 +135,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeymessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeymessages-get-openapi.md
+- name: Runscope - Add Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-post
+  description: Create a message
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeymessages-post-openapi.md
 - name: Runscope - Get Buckets Messages Message
   x-api-slug: bucketsbucketkeymessagesmessageid-get
   description: Retrieve the details for a single message.
@@ -128,6 +172,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeytests-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeytests-get-openapi.md
+- name: Runscope - Add Buckets Tests
+  x-api-slug: bucketsbucketkeytests-post
+  description: Create a test.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeytests-post-openapi.md
 - name: Runscope - Delete Buckets Tests
   x-api-slug: bucketsbucketkeyteststestid-delete
   description: Delete a test, including all steps, schedules, test-specific environments
@@ -184,6 +239,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidenvironments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidenvironments-get-openapi.md
+- name: Runscope - Add Buckets Tests Environments
+  x-api-slug: bucketsbucketkeyteststestidenvironments-post
+  description: Create new test environment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidenvironments-post-openapi.md
+- name: Runscope - Put Buckets Tests Environments
+  x-api-slug: bucketsbucketkeyteststestidenvironmentsenvironmentid-put
+  description: Update the details of a test environment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidenvironmentsenvironmentid-put-openapi.md
 - name: Runscope - Get Buckets Tests Metrics
   x-api-slug: bucketsbucketkeyteststestidmetrics-get
   description: Return details of the test metrics for the specified timeframe.
@@ -210,6 +287,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidsteps-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidsteps-get-openapi.md
+- name: Runscope - Add Buckets Tests Steps
+  x-api-slug: bucketsbucketkeyteststestidsteps-post
+  description: Add new test step.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidsteps-post-openapi.md
 - name: Runscope - Delete Buckets Tests Steps
   x-api-slug: bucketsbucketkeyteststestidstepsstepid-delete
   description: Delete a step from a test.
@@ -223,6 +311,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidstepsstepid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidstepsstepid-delete-openapi.md
+- name: Runscope - Put Buckets Tests Steps
+  x-api-slug: bucketsbucketkeyteststestidstepsstepid-put
+  description: Update the details of a single test step.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkeyteststestidstepsstepid-put-openapi.md
 - name: Runscope - Delete Buckets Bucketkey
   x-api-slug: bucketsbucketkey-delete
   description: Delete a single bucket resource.
@@ -275,6 +374,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-get-openapi.md
+- name: Runscope - Get Buckets Bucketkey
+  x-api-slug: bucketsbucketkey-get
+  description: Returns a single bucket resource.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-get-openapi.md
+- name: Runscope - Delete Buckets Bucketkey
+  x-api-slug: bucketsbucketkey-delete
+  description: Delete a single bucket resource.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/runscope/bucketsbucketkey-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://royal.bank.of.scotland.api.gallery.streamdata.io

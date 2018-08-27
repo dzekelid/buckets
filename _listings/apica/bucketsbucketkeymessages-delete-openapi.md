@@ -6,12 +6,14 @@ info:
   title: Messages API Delete Buckets Messages
   version: 1.0.0
   description: Clear a bucket (remove all messages)..
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   /buckets/{bucketKey}/messages:
     delete:

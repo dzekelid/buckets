@@ -8,11 +8,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Buckets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/google-compute-engine/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Compute Engine - Set Usage Export Bucket
+  x-api-slug: projectsetusageexportbucket-post
+  description: Enables the usage export feature and sets the usage export bucket where
+    reports are stored. If you provide an empty request body using this method, the
+    usage export feature will be disabled.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/google-compute-engine/projectsetusageexportbucket-post-openapi.md
+- name: Compute Engine - Set Usage Export Bucket
+  x-api-slug: projectsetusageexportbucket-post
+  description: Enables the usage export feature and sets the usage export bucket where
+    reports are stored. If you provide an empty request body using this method, the
+    usage export feature will be disabled.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/google-compute-engine/projectsetusageexportbucket-post-openapi.md
+- name: Compute Engine - Set Usage Export Bucket
+  x-api-slug: projectsetusageexportbucket-post
+  description: Enables the usage export feature and sets the usage export bucket where
+    reports are stored. If you provide an empty request body using this method, the
+    usage export feature will be disabled.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/buckets/master/_listings/google-compute-engine/projectsetusageexportbucket-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.vision.api.gallery.streamdata.io
